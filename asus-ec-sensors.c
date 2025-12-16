@@ -313,8 +313,8 @@ static const struct ec_sensor_info sensors_family_amd_trx_50[] = {
 	[ec_sensor_temp_vrme] = EC_SENSOR("VRM_E", hwmon_temp, 1, 0x00, 0x33),
 	[ec_sensor_temp_vrmw] = EC_SENSOR("VRM_W", hwmon_temp, 1, 0x00, 0x34),
 	[ec_sensor_fan_cpu_opt] = EC_SENSOR("CPU_Opt", hwmon_fan, 2, 0x00, 0xb0),
-	[ec_sensor_fan_vrmw_hs] = EC_SENSOR("VRM_E HS", hwmon_fan, 2, 0x00, 0xb4),
-	[ec_sensor_fan_vrme_hs] = EC_SENSOR("VRM_W HS", hwmon_fan, 2, 0x00, 0xbc),
+	[ec_sensor_fan_vrmw_hs] = EC_SENSOR("VRM_W HS", hwmon_fan, 2, 0x00, 0xb4),
+	[ec_sensor_fan_vrme_hs] = EC_SENSOR("VRM_E HS", hwmon_fan, 2, 0x00, 0xbc),
 	[ec_sensor_temp_t_sensor] =
 		EC_SENSOR("T_Sensor", hwmon_temp, 1, 0x01, 0x04),
 };
